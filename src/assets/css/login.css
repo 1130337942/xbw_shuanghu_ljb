@@ -1,0 +1,241 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+.container .access-log {
+  background-color: #fff;
+  color: #3fa0ef;
+  font-size: 26px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 176px;
+  position: relative;
+}
+.container .access-log div {
+  position: absolute;
+  right: 40%;
+  width: 600px;
+  height: 100%;
+  background: url('../images/logo.png') no-repeat 0 40px;
+  background-size: 260px 90px;
+  box-sizing: border-box;
+  padding-left: 300px;
+  line-height: 176px;
+}
+.container .access-background {
+  width: 100%;
+  height: 40vw;
+  background: url('../images/login_bg.png') no-repeat;
+  background-size: 100%;
+}
+.container .access-children-box {
+  position: absolute;
+  min-width: 380px;
+  min-height: 360px;
+  left: 60%;
+  margin-top: 3.2vw;
+}
+.container .access-children-box .access-children {
+  position: relative;
+}
+.container .access-children-box .access-children .access-children-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .access-children-box .access-children-container {
+  min-width: 380px;
+  min-height: 360px;
+  padding: 30px 30px 60px;
+  background-color: #ffffff;
+}
+.container .access-children-box .access-children-container .login-form,
+.container .access-children-box .access-children-container .register-form,
+.container .access-children-box .access-children-container .resetPassword-form {
+  width: 330px;
+  margin: 0 auto;
+}
+.container .access-children-box .access-children-container .login-form .resetPassword-input-box,
+.container .access-children-box .access-children-container .register-form .resetPassword-input-box,
+.container .access-children-box .access-children-container .resetPassword-form .resetPassword-input-box {
+  width: 330px;
+  height: 246px;
+  position: relative;
+}
+.container .access-children-box .access-children-container .login-form .login-input-box,
+.container .access-children-box .access-children-container .register-form .login-input-box,
+.container .access-children-box .access-children-container .resetPassword-form .login-input-box {
+  width: 330px;
+  height: 64px;
+  position: relative;
+}
+.container .access-children-box .access-children-container .login-form .login-input-box .posi,
+.container .access-children-box .access-children-container .register-form .login-input-box .posi,
+.container .access-children-box .access-children-container .resetPassword-form .login-input-box .posi {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.container .access-children-box .access-children-container .login-form .login-input-box .el-form-item,
+.container .access-children-box .access-children-container .register-form .login-input-box .el-form-item,
+.container .access-children-box .access-children-container .resetPassword-form .login-input-box .el-form-item {
+  margin-bottom: 15px;
+}
+.container .access-children-box .access-children-container .login-form .login-button,
+.container .access-children-box .access-children-container .register-form .login-button,
+.container .access-children-box .access-children-container .resetPassword-form .login-button,
+.container .access-children-box .access-children-container .login-form .register-button,
+.container .access-children-box .access-children-container .register-form .register-button,
+.container .access-children-box .access-children-container .resetPassword-form .register-button,
+.container .access-children-box .access-children-container .login-form .resetPassword-button,
+.container .access-children-box .access-children-container .register-form .resetPassword-button,
+.container .access-children-box .access-children-container .resetPassword-form .resetPassword-button {
+  width: 330px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 2px;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+.container .access-children-box .access-children-container .login-form .login-button,
+.container .access-children-box .access-children-container .register-form .login-button,
+.container .access-children-box .access-children-container .resetPassword-form .login-button {
+  height: 48px;
+  background: #ba2828 ;
+  border-color: #ba2828;
+  margin-top: 10px;
+}
+.container .access-children-box .access-children-container .login-form .register-button,
+.container .access-children-box .access-children-container .register-form .register-button,
+.container .access-children-box .access-children-container .resetPassword-form .register-button {
+  background: #ba2828 ;
+  border-color: #ba2828;
+}
+.container .access-children-box .access-children-container .login-form .resetPassword-button,
+.container .access-children-box .access-children-container .register-form .resetPassword-button,
+.container .access-children-box .access-children-container .resetPassword-form .resetPassword-button {
+  background: #ba2828 ;
+  border-color: #ba2828;
+}
+.container .access-children-box .access-children-container .login-form .is-active,
+.container .access-children-box .access-children-container .register-form .is-active,
+.container .access-children-box .access-children-container .resetPassword-form .is-active {
+  color: #ba2828;
+}
+.container .access-children-box .access-children-container .login-form .login-type,
+.container .access-children-box .access-children-container .register-form .login-type,
+.container .access-children-box .access-children-container .resetPassword-form .login-type {
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+}
+.container .access-children-box .access-children-container .login-form .login-type span,
+.container .access-children-box .access-children-container .register-form .login-type span,
+.container .access-children-box .access-children-container .resetPassword-form .login-type span {
+  cursor: pointer;
+}
+.container .access-children-box .access-children-container .login-form .login-phone,
+.container .access-children-box .access-children-container .register-form .login-phone,
+.container .access-children-box .access-children-container .resetPassword-form .login-phone {
+  margin-left: 21px;
+  background-color: #3b5999;
+  border-color: #3b5999;
+}
+.container .access-children-box .access-children-container .login-form .forget-password,
+.container .access-children-box .access-children-container .register-form .forget-password,
+.container .access-children-box .access-children-container .resetPassword-form .forget-password {
+  text-align: left;
+  color: #999999;
+}
+.container .access-children-box .access-children-container .login-form .forget-password:hover,
+.container .access-children-box .access-children-container .register-form .forget-password:hover,
+.container .access-children-box .access-children-container .resetPassword-form .forget-password:hover {
+  color: #ba2828 !important;
+}
+.container .access-children-box .access-children-container .login-form .register-login,
+.container .access-children-box .access-children-container .register-form .register-login,
+.container .access-children-box .access-children-container .resetPassword-form .register-login {
+  text-align: right;
+}
+.container .access-children-box .access-children-container .login-form .reset-login,
+.container .access-children-box .access-children-container .register-form .reset-login,
+.container .access-children-box .access-children-container .resetPassword-form .reset-login {
+  text-align: left;
+}
+.container .access-children-box .access-children-container .login-form .forget-password .register-login,
+.container .access-children-box .access-children-container .register-form .forget-password .register-login,
+.container .access-children-box .access-children-container .resetPassword-form .forget-password .register-login,
+.container .access-children-box .access-children-container .login-form .toLogin .register-login,
+.container .access-children-box .access-children-container .register-form .toLogin .register-login,
+.container .access-children-box .access-children-container .resetPassword-form .toLogin .register-login,
+.container .access-children-box .access-children-container .login-form .forget-password .reset-login,
+.container .access-children-box .access-children-container .register-form .forget-password .reset-login,
+.container .access-children-box .access-children-container .resetPassword-form .forget-password .reset-login,
+.container .access-children-box .access-children-container .login-form .toLogin .reset-login,
+.container .access-children-box .access-children-container .register-form .toLogin .reset-login,
+.container .access-children-box .access-children-container .resetPassword-form .toLogin .reset-login {
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-block;
+  font-family: 'PingFang SC';
+  line-height: 46px;
+  vertical-align: top;
+}
+.container .access-children-box .access-children-container .login-form .forget-password .register-icon,
+.container .access-children-box .access-children-container .register-form .forget-password .register-icon,
+.container .access-children-box .access-children-container .resetPassword-form .forget-password .register-icon,
+.container .access-children-box .access-children-container .login-form .toLogin .register-icon,
+.container .access-children-box .access-children-container .register-form .toLogin .register-icon,
+.container .access-children-box .access-children-container .resetPassword-form .toLogin .register-icon,
+.container .access-children-box .access-children-container .login-form .forget-password .resst-icon,
+.container .access-children-box .access-children-container .register-form .forget-password .resst-icon,
+.container .access-children-box .access-children-container .resetPassword-form .forget-password .resst-icon,
+.container .access-children-box .access-children-container .login-form .toLogin .resst-icon,
+.container .access-children-box .access-children-container .register-form .toLogin .resst-icon,
+.container .access-children-box .access-children-container .resetPassword-form .toLogin .resst-icon {
+  width: 22px;
+  height: 22px;
+  font-size: 22px;
+  margin-left: 10px;
+  color: #ba2828;
+  display: inline-block;
+  border: 2px solid #ba2828;
+  border-radius: 50%;
+  margin-top: 10px;
+  vertical-align: top;
+  font-weight: 500;
+}
+.container .access-children-box .access-children-container .login-form .login-register {
+  text-align: right;
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-block;
+  font-family: 'PingFang SC';
+  line-height: 46px;
+  vertical-align: top;
+}
+.container .access-children-box .access-children-container .login-form .login-register-icon {
+  width: 22px;
+  height: 22px;
+  font-size: 22px;
+  margin-left: 10px;
+  color: #ba2828;
+  display: inline-block;
+  border: 2px solid #ba2828;
+  border-radius: 50%;
+  margin-top: 10px;
+  vertical-align: top;
+  font-weight: 500;
+}
+.container .fade-enter-active,
+.container .fade-leave-active {
+  transition: all .5s;
+}
+.container .fade-enter,
+.container .fade-leave-to {
+  transform: translateX(100px);
+  opacity: 0;
+}

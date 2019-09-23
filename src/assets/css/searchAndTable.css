@@ -1,0 +1,17 @@
+.panelBox {
+  box-shadow: 0 2px 12px 0px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  padding: 20px;
+}
+.panelBox .top,
+.panelBox .searchToolbar {
+  min-height: 102px;
+}
+.panelBox .table-box {
+  padding-top: 10px;
+  background-color: #ffffff;
+}
+.panelBox .pagination {
+  text-align: center;
+  padding-bottom: 5px;
+}

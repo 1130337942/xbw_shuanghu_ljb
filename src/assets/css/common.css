@@ -1,0 +1,91 @@
+* {
+  font-family: 'PingFang SC';
+  list-style: none;
+}
+.login-form .el-input input,
+.register-form .el-input input,
+.resetPassword-form .el-input input {
+  border: 1px solid #999999;
+  color: #999999;
+  padding-left: 40px;
+  font-size: 17px;
+}
+.login-form .el-input__prefix,
+.register-form .el-input__prefix,
+.resetPassword-form .el-input__prefix {
+  color: #999999 !important;
+  line-height: 48px;
+}
+.login-form .el-input-group__append,
+.register-form .el-input-group__append,
+.resetPassword-form .el-input-group__append {
+  border-color: #999999;
+}
+.login-form .el-input input {
+  border-radius: 0px;
+  height: 48px;
+}
+.login_bottom_btn {
+  color: #999999 !important;
+  font-size: 18px !important;
+  line-height: 20px !important;
+}
+.login_bottom_btn:hover {
+  color: #ba2828 !important;
+}
+.widthFit {
+  width: 100%;
+}
+.heightFit {
+  height: 100%;
+}
+.inline_block {
+  display: inline-block;
+}
+.inline {
+  display: inline;
+}
+.block {
+  display: block;
+}
+.text_center {
+  text-align: center;
+}
+.text_left {
+  text-align: left;
+}
+.text_right {
+  text-align: right;
+}
+.cursor_point {
+  cursor: pointer;
+}
+.clearBoth::after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+.clearBoth::before {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+.cursorPoint {
+  cursor: pointer;
+}
+#app .ql-container {
+  height: 350px;
+}
+#app .ql-picker {
+  line-height: 24px;
+}
+.classis_table .el-table__body-wrapper {
+  overflow-y: auto !important;
+}
+.primary_font_color {
+  color: #53d192;
+}
