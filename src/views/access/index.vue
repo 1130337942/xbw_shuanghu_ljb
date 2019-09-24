@@ -63,6 +63,7 @@ export default {
         onTypecheck(type){
             this.type = type
         },
+        //vueX Mutations 方法
         ...mapMutations('access',[])
     }
 }
